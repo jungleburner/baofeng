@@ -104,7 +104,7 @@ Range 476.4250–477.4125 MHz. 12.5 kHz spacing except 22/23 at 25 kHz.
 
 ## 6a. On-air results — CONFIRMED
 
-- **Ch 42, via repeater, using the Abbree 48cm** — radio check returned successfully.
+- **Ch 43, via repeater, using the Abbree 48cm** — radio check returned successfully. (RX 476.4875 / TX 477.2375.)
 - Proves the whole chain: correct frequency, correct +0.750 MHz offset, enough radiated power at 477 MHz to key a repeater input, and intelligible audio.
 - The Abbree works in practice despite being rated only to 470 MHz.
 - **Still worth doing:** same repeater with the stock whip, to see whether the Abbree is genuinely better or the repeater is simply close enough that either gets in.
@@ -136,7 +136,7 @@ Green MENU → Bank → pick zone → save. The Bank prompt only lists zones tha
 To confirm precisely: read the radio into CHIRP and inspect rows 81+. Delete or relocate from there.
 
 ### Reverse (listen on a repeater's input)
-**Short press `*`** on a duplex channel swaps TX and RX — on ch42 you'd listen on 477.2125 and transmit on 476.4625. Used to check whether the other station is in direct simplex range, bypassing the repeater.
+**Short press `*`** on a duplex channel swaps TX and RX — on ch43 you'd listen on 477.2375 and transmit on 476.4875. Used to check whether the other station is in direct simplex range, bypassing the repeater.
 
 On a simplex channel it only beeps, since there's nothing to swap. (This is why the earlier `*` test appeared to do nothing — it was tried on a simplex channel.)
 
